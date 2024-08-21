@@ -118,7 +118,7 @@ async def on_message(message):
         await message.channel.send(embed=embed)
         print("Sent the quote and image")  # Debugging statement
 
-    lecrymeme = "/Users/anishahuja/Desktop/DiscordBots/Lebron_Bot/lecrymeme.mp4"
+    lecrymeme = "../lecrymeme.mp4"
 
     if message.content.lower() == "!leman":
         print("Received !LeMan command")  # Debugging statement
